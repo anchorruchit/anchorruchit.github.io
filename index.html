@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Anchor Ruchit Chavan - Professional Wedding Anchor & Emcee in Pune. 8+ years experience, 80+ events. Book for weddings, corporate events, sangeet, college fests.">
+<meta name="keywords" content="anchor pune, wedding anchor pune, emcee pune, event host pune, marathi anchor pune, corporate emcee pune, ruchit chavan">
+<meta property="og:title" content="Anchor Ruchit Chavan | Best Anchor in Pune">
+<meta property="og:description" content="Professional Wedding Anchor & Emcee in Pune with 8+ years of stage experience.">
+<title>Anchor Ruchit Chavan | Best Anchor & Emcee in Pune</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================
+   ROOT & RESET
+============================================ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --gold: #C9A84C;
+  --gold-light: #E8C96A;
+  --gold-dark: #9A7A2E;
+  --gold-pale: #F5E6C0;
+  --black: #080808;
+  --dark: #111111;
+  --dark2: #1a1a1a;
+  --dark3: #242424;
+  --white: #FAFAF8;
+  --grey: #888880;
+  --phone: 9420061515;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+  padding-bottom: 80px;
+}
+
+/* ============================================
+   NAVBAR
+============================================ */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 900;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(8,8,8,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(201,168,76,0.15);
+  transition: all 0.3s;
+}
+
+nav.scrolled {
+  padding: 0.7rem 2rem;
+  background: rgba(8,8,8,0.98);
+}
+
+.nav-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-logo span { color: var(--white); font-style: italic; }
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: rgba(250,250,248,0.7);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover { color: var(--gold); }
+
+.nav-cta {
+  background: var(--gold);
+  color: var(--black) !important;
+  padding: 0.5rem 1.25rem;
+  border-radius: 2px;
+  font-weight: 700 !important;
+  letter-spacing: 0.1em;
+}
+
+.nav-cta:hover { background: var(--gold-light) !important; color: var(--black) !important; }
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.hamburger span {
+  width: 24px;
+  height: 2px;
+  background: var(--gold);
+  transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  .nav-cta-desktop { display: none; }
+}
+
+/* ============================================
+   HERO
+============================================ */
+#hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding: 8rem 2rem 4rem;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 60% 50%, rgba(201,168,76,0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 40% at 20% 80%, rgba(201,168,76,0.05) 0%, transparent 60%),
+    linear-gradient(180deg, #080808 0%, #0f0f0f 100%);
+}
+
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(201,168,76,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201,168,76,0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 0%, transparent 100%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(201,168,76,0.1);
+  border: 1px solid rgba(201,168,76,0.3);
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border-radius: 100px;
+  margin-bottom: 1.5rem;
+  animation: fadeUp 0.8s ease both;
+}
+
+.hero-badge::before {
+  content: '';
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--gold);
+  animation: pulse-dot 2s infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.7); }
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  line-height: 1.08;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  animation: fadeUp 0.8s 0.1s ease both;
+}
+
+.hero-title em {
+  font-style: italic;
+  color: var(--gold);
+  display: block;
+}
+
+.hero-title strong {
+  font-weight: 900;
+  display: block;
+  font-style: normal;
+}
+
+.hero-sub {
+  font-size: 1.05rem;
+  color: rgba(250,250,248,0.65);
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+  font-weight: 300;
+  animation: fadeUp 0.8s 0.2s ease both;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  animation: fadeUp 0.8s 0.3s ease both;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--gold);
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  padding: 0.9rem 2rem;
+  border-radius: 2px;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(201,168,76,0.3);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: transparent;
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  padding: 0.9rem 2rem;
+  border-radius: 2px;
+  border: 1px solid rgba(250,250,248,0.2);
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.btn-secondary:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.hero-visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeUp 0.8s 0.4s ease both;
+}
+
+.hero-frame {
+  position: relative;
+  width: 340px;
+  height: 420px;
+}
+
+.hero-frame-inner {
+  width: 100%;
+  height: 100%;
+  background: var(--dark2);
+  border: 1px solid rgba(201,168,76,0.2);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+}
+
+.hero-frame::before {
+  content: '';
+  position: absolute;
+  top: -12px; right: -12px;
+  width: 100%; height: 100%;
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: 4px;
+  z-index: -1;
+}
+
+.hero-frame::after {
+  content: '';
+  position: absolute;
+  bottom: -12px; left: -12px;
+  width: 100%; height: 100%;
+  border: 1px solid rgba(201,168,76,0.08);
+  border-radius: 4px;
+  z-index: -1;
+}
+
+.hero-tag {
+  position: absolute;
+  background: var(--gold);
+  color: var(--black);
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+}
+
+.hero-tag.t1 { bottom: -16px; left: -16px; }
+.hero-tag.t2 {
+  top: -16px; right: -16px;
+  background: var(--dark3);
+  color: var(--gold);
+  border: 1px solid rgba(201,168,76,0.3);
+}
+
+.hero-scroll {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--grey);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  animation: fadeUp 1s 1s ease both;
+}
+
+.scroll-line {
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(180deg, var(--gold), transparent);
+  animation: scrollLine 2s ease infinite;
+}
+
+@keyframes scrollLine {
+  0% { transform: scaleY(0); transform-origin: top; }
+  50% { transform: scaleY(1); transform-origin: top; }
+  51% { transform: scaleY(1); transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  .hero-actions { justify-content: center; }
+  .hero-visual { order: -1; }
+  .hero-frame { width: 240px; height: 300px; }
+}
+
+/* ============================================
+   STATS BAR
+============================================ */
+#stats {
+  background: var(--gold);
+  padding: 2.5rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+#stats::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 10px,
+    rgba(0,0,0,0.04) 10px,
+    rgba(0,0,0,0.04) 20px
+  );
+}
+
+.stats-grid {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+.stat-item {}
+
+.stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: var(--black);
+  line-height: 1;
+  margin-bottom: 0.3rem;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(8,8,8,0.65);
+}
+
+@media (max-width: 600px) {
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ============================================
+   SECTION COMMONS
+============================================ */
+section { padding: 6rem 2rem; }
+
+.section-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.section-label::before {
+  content: '';
+  width: 30px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 900;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.section-title em { font-style: italic; color: var(--gold); }
+
+.section-sub {
+  font-size: 1rem;
+  color: rgba(250,250,248,0.55);
+  font-weight: 300;
+  line-height: 1.8;
+  max-width: 540px;
+}
+
+/* ============================================
+   SERVICES
+============================================ */
+#services { background: var(--dark); }
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5px;
+  margin-top: 4rem;
+  border: 1.5px solid rgba(201,168,76,0.12);
+}
+
+.service-card {
+  background: var(--dark2);
+  padding: 2.5rem 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  cursor: default;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%; height: 2px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s;
+}
+
+.service-card:hover { background: var(--dark3); }
+.service-card:hover::before { transform: scaleX(1); }
+
+.service-icon {
+  font-size: 2.2rem;
+  margin-bottom: 1.25rem;
+  display: block;
+}
+
+.service-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--white);
+}
+
+.service-desc {
+  font-size: 0.85rem;
+  color: rgba(250,250,248,0.5);
+  line-height: 1.75;
+  font-weight: 300;
+}
+
+.service-num {
+  position: absolute;
+  top: 1.5rem; right: 2rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: rgba(201,168,76,0.06);
+  line-height: 1;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .services-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 480px) {
+  .services-grid { grid-template-columns: 1fr; }
+}
+
+/* ============================================
+   WHY CHOOSE
+============================================ */
+#why { background: var(--black); }
+
+.why-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.why-visual {
+  position: relative;
+}
+
+.why-card-stack {
+  position: relative;
+  height: 380px;
+}
+
+.why-card {
+  position: absolute;
+  background: var(--dark2);
+  border: 1px solid rgba(201,168,76,0.12);
+  border-radius: 4px;
+  padding: 2rem;
+}
+
+.why-card.c1 {
+  top: 0; left: 0;
+  right: 60px;
+  animation: float1 6s ease-in-out infinite;
+}
+
+.why-card.c2 {
+  bottom: 0; right: 0;
+  left: 60px;
+  animation: float2 6s ease-in-out infinite;
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+.why-card-icon { font-size: 2rem; margin-bottom: 0.75rem; }
+.why-card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--gold);
+}
+.why-card-text { font-size: 0.82rem; color: var(--grey); line-height: 1.7; }
+
+.why-points { display: flex; flex-direction: column; gap: 1.5rem; }
+
+.why-point {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(201,168,76,0.08);
+}
+
+.why-point:last-child { border-bottom: none; padding-bottom: 0; }
+
+.why-point-icon {
+  width: 44px; height: 44px;
+  border-radius: 2px;
+  background: rgba(201,168,76,0.1);
+  border: 1px solid rgba(201,168,76,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.why-point-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+  color: var(--white);
+}
+
+.why-point-text {
+  font-size: 0.82rem;
+  color: var(--grey);
+  line-height: 1.65;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .why-layout { grid-template-columns: 1fr; gap: 3rem; }
+  .why-visual { display: none; }
+}
+
+/* ============================================
+   TESTIMONIALS
+============================================ */
+#testimonials { background: var(--dark); }
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.testimonial-card {
+  background: var(--dark2);
+  border: 1px solid rgba(201,168,76,0.1);
+  border-radius: 4px;
+  padding: 2rem;
+  position: relative;
+  transition: border-color 0.3s;
+}
+
+.testimonial-card:hover { border-color: rgba(201,168,76,0.3); }
+
+.quote-mark {
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  line-height: 0.8;
+  color: rgba(201,168,76,0.15);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.testimonial-text {
+  font-size: 0.9rem;
+  color: rgba(250,250,248,0.75);
+  line-height: 1.8;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.author-avatar {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: rgba(201,168,76,0.15);
+  border: 1px solid rgba(201,168,76,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.author-name {
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: var(--white);
+  margin-bottom: 0.15rem;
+}
+
+.author-event {
+  font-size: 0.72rem;
+  color: var(--gold);
+  letter-spacing: 0.06em;
+}
+
+.stars {
+  color: var(--gold);
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 900px) {
+  .testimonials-grid { grid-template-columns: 1fr; max-width: 480px; }
+}
+
+/* ============================================
+   PROCESS
+============================================ */
+#process { background: var(--black); }
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.process-steps::before {
+  content: '';
+  position: absolute;
+  top: 28px;
+  left: 12.5%;
+  right: 12.5%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(201,168,76,0.3), rgba(201,168,76,0.3), transparent);
+}
+
+.process-step {
+  text-align: center;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.step-num {
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  background: var(--dark2);
+  border: 1px solid rgba(201,168,76,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin: 0 auto 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.step-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.step-text {
+  font-size: 0.78rem;
+  color: var(--grey);
+  line-height: 1.65;
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  .process-steps { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .process-steps::before { display: none; }
+}
+
+/* ============================================
+   CTA BANNER
+============================================ */
+#cta-banner {
+  background: linear-gradient(135deg, var(--gold-dark), var(--gold), var(--gold-light));
+  padding: 5rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#cta-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 20px,
+    rgba(255,255,255,0.04) 20px,
+    rgba(255,255,255,0.04) 40px
+  );
+}
+
+.cta-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 900;
+  color: var(--black);
+  margin-bottom: 0.75rem;
+  position: relative;
+}
+
+.cta-sub {
+  font-size: 1rem;
+  color: rgba(8,8,8,0.65);
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+  position: relative;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.btn-dark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--black);
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  padding: 1rem 2.25rem;
+  border-radius: 2px;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.btn-dark:hover {
+  background: var(--dark2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+.btn-wa {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #25D366;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  padding: 1rem 2.25rem;
+  border-radius: 2px;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.btn-wa:hover {
+  background: #1ebe5c;
+  transform: translateY(-2px);
+}
+
+/* ============================================
+   CONTACT
+============================================ */
+#contact { background: var(--dark); }
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  margin-top: 4rem;
+  align-items: start;
+}
+
+.contact-info { display: flex; flex-direction: column; gap: 2rem; }
+
+.contact-block {}
+
+.contact-block-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.contact-block-value {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-block-value:hover { color: var(--gold); }
+
+.contact-action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.contact-btn.call {
+  background: var(--gold);
+  color: var(--black);
+}
+
+.contact-btn.call:hover {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(201,168,76,0.25);
+}
+
+.contact-btn.whatsapp {
+  background: #25D366;
+  color: #fff;
+}
+
+.contact-btn.whatsapp:hover {
+  background: #1ebe5c;
+  transform: translateY(-2px);
+}
+
+.contact-btn.email {
+  background: var(--dark3);
+  color: var(--white);
+  border: 1px solid rgba(201,168,76,0.15);
+}
+
+.contact-btn.email:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.contact-btn-icon { font-size: 1.4rem; }
+
+.contact-btn-text { display: flex; flex-direction: column; }
+.contact-btn-main { font-weight: 700; }
+.contact-btn-sub { font-size: 0.72rem; font-weight: 400; opacity: 0.7; }
+
+.map-placeholder {
+  background: var(--dark2);
+  border: 1px solid rgba(201,168,76,0.12);
+  border-radius: 4px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 3rem;
+}
+
+.map-location {
+  font-size: 0.9rem;
+  color: var(--grey);
+  text-align: center;
+}
+
+.map-location strong { display: block; color: var(--gold); font-size: 1rem; margin-bottom: 0.25rem; }
+
+@media (max-width: 768px) {
+  .contact-layout { grid-template-columns: 1fr; gap: 3rem; }
+  .map-placeholder { height: 220px; }
+}
+
+/* ============================================
+   FOOTER
+============================================ */
+footer {
+  background: var(--black);
+  border-top: 1px solid rgba(201,168,76,0.1);
+  padding: 3rem 2rem;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.footer-logo span { color: var(--white); font-style: italic; }
+
+.footer-address {
+  font-size: 0.8rem;
+  color: var(--grey);
+  text-align: center;
+  line-height: 1.7;
+}
+
+.footer-copy {
+  font-size: 0.75rem;
+  color: rgba(136,136,128,0.5);
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .footer-inner { flex-direction: column; text-align: center; }
+  .footer-copy { text-align: center; }
+}
+
+/* ============================================
+   STICKY BOTTOM BAR
+============================================ */
+#sticky-bar {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 999;
+  display: flex;
+  height: 64px;
+  box-shadow: 0 -4px 30px rgba(0,0,0,0.5);
+}
+
+.sticky-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: filter 0.2s;
+}
+
+.sticky-btn:hover { filter: brightness(1.1); }
+
+.sticky-btn.call {
+  background: var(--gold);
+  color: var(--black);
+  position: relative;
+}
+
+.sticky-btn.call::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--gold-light);
+  border-radius: 0;
+  animation: pulse-btn 2.5s ease-in-out infinite;
+}
+
+.sticky-btn.call span { position: relative; z-index: 1; }
+
+@keyframes pulse-btn {
+  0%, 100% { opacity: 0; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.02); }
+}
+
+.sticky-btn.wa {
+  background: #25D366;
+  color: #fff;
+}
+
+.sticky-icon { font-size: 1.3rem; position: relative; z-index: 1; }
+
+/* ============================================
+   SCROLL ANIMATIONS
+============================================ */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">Ruchit <span>Chavan</span></a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#why">About</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="tel:9420061515" class="nav-cta nav-cta-desktop">📞 Book Now</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-badge">✨ Available for Bookings in Pune</div>
+      <h1 class="hero-title">
+        <strong>Your Event.</strong>
+        <em>Unforgettable.</em>
+        <strong>Every Time.</strong>
+      </h1>
+      <p class="hero-sub">
+        Pune's most energetic professional anchor and emcee — Ruchit Chavan brings 8+ years of stage experience to your weddings, corporate events, sangeet nights, and celebrations.
+      </p>
+      <div class="hero-actions">
+        <a href="tel:9420061515" class="btn-primary">
+          📞 Call Now
+        </a>
+        <a href="https://wa.me/919420061515?text=Hi%20Ruchit%2C%20I%20want%20to%20book%20you%20for%20my%20event." class="btn-secondary" target="_blank">
+          💬 WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-frame">
+        <div class="hero-frame-inner">🎙️</div>
+        <div class="hero-tag t1">8+ Years on Stage</div>
+        <div class="hero-tag t2">⭐ 5.0 Rating</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    Scroll
+  </div>
+</section>
+
+<!-- STATS -->
+<div id="stats">
+  <div class="stats-grid">
+    <div class="stat-item reveal">
+      <div class="stat-num">80+</div>
+      <div class="stat-label">Events Hosted</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-1">
+      <div class="stat-num">8+</div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-2">
+      <div class="stat-num">5.0</div>
+      <div class="stat-label">Google Rating</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-3">
+      <div class="stat-num">3</div>
+      <div class="stat-label">Languages</div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-wrap">
+    <div class="reveal">
+      <div class="section-label">What I Do</div>
+      <h2 class="section-title">Events I <em>Specialise</em> In</h2>
+      <p class="section-sub">From intimate gatherings to large corporate galas — every event gets the same energy, preparation, and passion.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-num">01</div>
+        <span class="service-icon">💍</span>
+        <div class="service-name">Wedding & Reception</div>
+        <p class="service-desc">Complete wedding hosting — from baraat welcome and couple entry to games, speeches, and first dance. Making your big day truly magical.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-num">02</div>
+        <span class="service-icon">🎶</span>
+        <div class="service-name">Sangeet Ceremony</div>
+        <p class="service-desc">High-energy sangeet nights with interactive games, dance anchoring, and seamless coordination between families. The night everyone will talk about.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-num">03</div>
+        <span class="service-icon">🏢</span>
+        <div class="service-name">Corporate Events</div>
+        <p class="service-desc">Professional MC services for conferences, award nights, product launches, team offsites, and annual days. Crisp, polished, and always on schedule.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-num">04</div>
+        <span class="service-icon">🎓</span>
+        <div class="service-name">College Fests</div>
+        <p class="service-desc">Young, energetic, and crowd-savvy hosting for college festivals, culturals, and tech fests. The host who matches student energy.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-num">05</div>
+        <span class="service-icon">🎉</span>
+        <div class="service-name">Private Celebrations</div>
+        <p class="service-desc">Birthday parties, anniversaries, kitty parties, and family functions. Personalised hosting that makes your celebration feel exclusive.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-num">06</div>
+        <span class="service-icon">🏆</span>
+        <div class="service-name">Award Ceremonies</div>
+        <p class="service-desc">Formal and semi-formal award nights hosted with dignity, energy, and attention to detail. Every winner gets their moment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section id="why">
+  <div class="section-wrap">
+    <div class="why-layout">
+      <div class="reveal">
+        <div class="section-label">Why Ruchit</div>
+        <h2 class="section-title">Not Just an <em>Anchor.</em><br>An Experience.</h2>
+        <p class="section-sub" style="margin-bottom: 3rem;">What separates a good anchor from a great one? Preparation, adaptability, and genuine love for the craft.</p>
+
+        <div class="why-points">
+          <div class="why-point">
+            <div class="why-point-icon">🎯</div>
+            <div>
+              <div class="why-point-title">Fluent in 3 Languages</div>
+              <div class="why-point-text">Marathi, Hindi, and English — seamlessly switching as your audience needs. Your guests always feel at home.</div>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">⚡</div>
+            <div>
+              <div class="why-point-title">Handles the Unexpected</div>
+              <div class="why-point-text">Events rarely go exactly to plan. Ruchit improvises without panic, keeping the energy up and guests engaged no matter what.</div>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">📋</div>
+            <div>
+              <div class="why-point-title">Fully Prepared, Every Time</div>
+              <div class="why-point-text">Pre-event coordination, script review, vendor sync — Ruchit shows up prepared so you can relax and enjoy your own event.</div>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">❤️</div>
+            <div>
+              <div class="why-point-title">Personal Touch</div>
+              <div class="why-point-text">Every event is customised — no generic scripts. Your names, your story, your vibe. It always feels personal because it is.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="why-visual reveal reveal-delay-2">
+        <div class="why-card-stack">
+          <div class="why-card c1">
+            <div class="why-card-icon">🎙️</div>
+            <div class="why-card-title">Stage Presence</div>
+            <div class="why-card-text">Commanding energy that fills the room from the moment he picks up the mic. Crowd feels it instantly.</div>
+          </div>
+          <div class="why-card c2">
+            <div class="why-card-icon">⭐</div>
+            <div class="why-card-title">5.0 Google Rating</div>
+            <div class="why-card-text">18+ verified Google reviews from real clients. Consistently rated 5 stars for professionalism and energy.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-wrap">
+    <div class="reveal" style="text-align:center; margin-bottom: 0;">
+      <div class="section-label" style="justify-content: center;">What Clients Say</div>
+      <h2 class="section-title">Real Events. <em>Real Words.</em></h2>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <span class="quote-mark">"</span>
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">Ruchit was absolutely fantastic at our wedding reception. He kept the energy going all night, the games were hilarious, and our guests are still talking about how well the event flowed. Highly recommend!</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">👰</div>
+          <div>
+            <div class="author-name">Priya & Rohan</div>
+            <div class="author-event">Wedding Reception, Pune</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-delay-1">
+        <span class="quote-mark">"</span>
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">We hired Ruchit for our company's annual day and he was outstanding. Very professional, well-prepared, and handled every change in schedule without missing a beat. Our employees loved him.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">🏢</div>
+          <div>
+            <div class="author-name">Amit Kulkarni</div>
+            <div class="author-event">Corporate Annual Day, Pune</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-delay-2">
+        <span class="quote-mark">"</span>
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">Our sangeet night was a dream because of Ruchit. He knew exactly how to get both families involved, the crowd interaction was amazing, and he switched between Marathi and Hindi so naturally. Superb!</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">🎶</div>
+          <div>
+            <div class="author-name">Sneha Deshmukh</div>
+            <div class="author-event">Sangeet Ceremony, Pune</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="section-wrap">
+    <div class="reveal" style="text-align: center;">
+      <div class="section-label" style="justify-content: center;">How It Works</div>
+      <h2 class="section-title">Booking Is <em>Simple.</em></h2>
+      <p class="section-sub" style="margin: 0 auto 0;">4 easy steps from enquiry to your unforgettable event.</p>
+    </div>
+
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="step-num">01</div>
+        <div class="step-title">Get in Touch</div>
+        <div class="step-text">Call or WhatsApp with your event date, type, and location in Pune.</div>
+      </div>
+      <div class="process-step reveal reveal-delay-1">
+        <div class="step-num">02</div>
+        <div class="step-title">Discussion</div>
+        <div class="step-text">Brief call to understand your event theme, requirements, and expectations.</div>
+      </div>
+      <div class="process-step reveal reveal-delay-2">
+        <div class="step-num">03</div>
+        <div class="step-title">Confirmation</div>
+        <div class="step-text">Date blocked, advance paid, and event planning begins immediately.</div>
+      </div>
+      <div class="process-step reveal reveal-delay-3">
+        <div class="step-num">04</div>
+        <div class="step-title">Your Event</div>
+        <div class="step-text">Ruchit shows up fully prepared. You relax and enjoy every moment.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div id="cta-banner">
+  <div class="cta-title">Ready to Make Your Event Unforgettable?</div>
+  <p class="cta-sub">Limited dates available — check availability for your event today.</p>
+  <div class="cta-buttons">
+    <a href="tel:9420061515" class="btn-dark">📞 Call: 94200 61515</a>
+    <a href="https://wa.me/919420061515?text=Hi%20Ruchit%2C%20I%20want%20to%20check%20availability%20for%20my%20event." class="btn-wa" target="_blank">💬 WhatsApp Now</a>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-wrap">
+    <div class="reveal">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Book <em>Ruchit</em> for Your Event</h2>
+    </div>
+
+    <div class="contact-layout">
+      <div class="contact-info reveal">
+        <div class="contact-block">
+          <div class="contact-block-label">Phone / WhatsApp</div>
+          <a href="tel:9420061515" class="contact-block-value">+91 94200 61515</a>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-label">Email</div>
+          <a href="mailto:anchorruchit@gmail.com" class="contact-block-value">anchorruchit@gmail.com</a>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-label">Location</div>
+          <div class="contact-block-value" style="cursor:default;">Baner, Pune, Maharashtra</div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-label">Serving</div>
+          <div class="contact-block-value" style="cursor:default; font-size: 0.9rem; color: var(--grey);">All areas of Pune • Pimpri-Chinchwad • Mumbai • Maharashtra</div>
+        </div>
+
+        <div class="contact-action-buttons">
+          <a href="tel:9420061515" class="contact-btn call">
+            <span class="contact-btn-icon">📞</span>
+            <div class="contact-btn-text">
+              <span class="contact-btn-main">Call Now</span>
+              <span class="contact-btn-sub">94200 61515</span>
+            </div>
+          </a>
+          <a href="https://wa.me/919420061515?text=Hi%20Ruchit%2C%20I%20want%20to%20book%20you%20for%20my%20event." class="contact-btn whatsapp" target="_blank">
+            <span class="contact-btn-icon">💬</span>
+            <div class="contact-btn-text">
+              <span class="contact-btn-main">WhatsApp</span>
+              <span class="contact-btn-sub">Chat instantly</span>
+            </div>
+          </a>
+          <a href="mailto:anchorruchit@gmail.com" class="contact-btn email">
+            <span class="contact-btn-icon">✉️</span>
+            <div class="contact-btn-text">
+              <span class="contact-btn-main">Send Email</span>
+              <span class="contact-btn-sub">anchorruchit@gmail.com</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="map-placeholder reveal reveal-delay-2">
+        <div style="font-size: 3rem;">📍</div>
+        <div class="map-location">
+          <strong>Baner, Pune</strong>
+          Maharashtra, India — 411045<br>
+          Serving all of Pune & beyond
+        </div>
+        <a href="https://maps.google.com/?q=Baner,Pune" target="_blank" style="margin-top: 0.5rem; color: var(--gold); font-size: 0.8rem; text-decoration: none; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600;">Open in Maps →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">Ruchit <span>Chavan</span></div>
+    <div class="footer-address">
+      Professional Anchor & Emcee • Baner, Pune, Maharashtra 411045<br>
+      📞 94200 61515 • anchorruchit@gmail.com
+    </div>
+    <div class="footer-copy">
+      © 2025 Anchor Ruchit Chavan<br>
+      All rights reserved
+    </div>
+  </div>
+</footer>
+
+<!-- STICKY BOTTOM BAR -->
+<div id="sticky-bar">
+  <a href="tel:9420061515" class="sticky-btn call">
+    <span class="sticky-icon">📞</span>
+    <span>Call Now</span>
+  </a>
+  <a href="https://wa.me/919420061515?text=Hi%20Ruchit%2C%20I%20want%20to%20book%20you%20for%20my%20event." class="sticky-btn wa" target="_blank">
+    <span class="sticky-icon">💬</span>
+    <span>WhatsApp</span>
+  </a>
+</div>
+
+<script>
+// Navbar scroll effect
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 60);
+});
+
+// Hamburger menu (mobile)
+function toggleMenu() {
+  const links = document.querySelector('.nav-links');
+  if (links.style.display === 'flex') {
+    links.style.display = 'none';
+  } else {
+    links.style.display = 'flex';
+    links.style.flexDirection = 'column';
+    links.style.position = 'absolute';
+    links.style.top = '100%';
+    links.style.left = '0';
+    links.style.right = '0';
+    links.style.background = 'rgba(8,8,8,0.98)';
+    links.style.padding = '1.5rem 2rem';
+    links.style.gap = '1.5rem';
+    links.style.borderBottom = '1px solid rgba(201,168,76,0.15)';
+  }
+}
+
+// Close menu when link clicked
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    const links = document.querySelector('.nav-links');
+    links.style.display = 'none';
+  });
+});
+
+// Scroll reveal
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+reveals.forEach(el => observer.observe(el));
+
+// Counter animation
+function animateCounters() {
+  const counters = document.querySelectorAll('.stat-num');
+  counters.forEach(counter => {
+    const text = counter.textContent;
+    const num = parseFloat(text);
+    if (isNaN(num)) return;
+    const suffix = text.replace(String(num), '');
+    let start = 0;
+    const duration = 1800;
+    const step = (timestamp) => {
+      if (!start) start = timestamp;
+      const progress = Math.min((timestamp - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      counter.textContent = (num % 1 === 0 ? Math.floor(eased * num) : (eased * num).toFixed(1)) + suffix;
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  });
+}
+
+const statsSection = document.getElementById('stats');
+const statsObserver = new IntersectionObserver((entries) => {
+  if (entries[0].isIntersecting) {
+    animateCounters();
+    statsObserver.disconnect();
+  }
+}, { threshold: 0.5 });
+statsObserver.observe(statsSection);
+</script>
+</body>
+</html>
